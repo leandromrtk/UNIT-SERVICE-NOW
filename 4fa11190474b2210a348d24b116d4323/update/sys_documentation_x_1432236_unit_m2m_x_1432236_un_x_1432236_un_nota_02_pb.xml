@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="nota_02" label="Nota 02" language="pb" table="x_1432236_unit_m2m_x_1432236_un_x_1432236_un">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>nota_02</element>
+            <help/>
+            <hint/>
+            <label>Nota 02</label>
+            <language>pb</language>
+            <name>x_1432236_unit_m2m_x_1432236_un_x_1432236_un</name>
+            <plural>Nota 02</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-07-26 01:28:02</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Nota 02</sys_name>
+            <sys_package display_value="UNIT" source="x_1432236_unit">4fa11190474b2210a348d24b116d4323</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope>
+            <sys_update_name>sys_documentation_x_1432236_unit_m2m_x_1432236_un_x_1432236_un_nota_02_pb</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-07-26 01:28:02</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

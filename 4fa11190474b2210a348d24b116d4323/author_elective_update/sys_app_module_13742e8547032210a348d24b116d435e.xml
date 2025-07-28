@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="UNIT">7d0395d847cb2210a348d24b116d43c2</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Direção</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1432236_unit_alunos</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 14:32:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>13742e8547032210a348d24b116d435e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Direção</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="UNIT" source="x_1432236_unit">4fa11190474b2210a348d24b116d4323</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope>
+        <sys_update_name>sys_app_module_13742e8547032210a348d24b116d435e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 14:32:17</sys_updated_on>
+        <timeline_page/>
+        <title>Direção</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="UNIT">4fa11190474b2210a348d24b116d4323</application>
+        <file_path/>
+        <instance_id>2bea315deb30a618cbdefceacad0cdfb</instance_id>
+        <instance_name>dev321427</instance_name>
+        <name>sys_app_module_13742e8547032210a348d24b116d435e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="UNIT">7d0395d847cb2210a348d24b116d43c2</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Direção</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1432236_unit_alunos</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-28 14:32:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>13742e8547032210a348d24b116d435e</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Direção</sys_name><sys_overrides/><sys_package display_value="UNIT" source="x_1432236_unit">4fa11190474b2210a348d24b116d4323</sys_package><sys_policy/><sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope><sys_update_name>sys_app_module_13742e8547032210a348d24b116d435e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-28 14:32:17</sys_updated_on><timeline_page/><title>Direção</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>223829407</payload_hash>
+        <record_name>Direção</record_name>
+        <reverted_from/>
+        <source>a822d19847cb2210a348d24b116d439e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 14:32:17</sys_created_on>
+        <sys_id>47c4a2c547032210a348d24b116d43a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1985172d83d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 14:32:17</sys_updated_on>
+        <type>Module</type>
+        <update_guid>4bc4a2c51f032210cba48d8e043c2a9f</update_guid>
+        <update_guid_history>4bc4a2c51f032210cba48d8e043c2a9f:223829407</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Direção">3335ae4547032210a348d24b116d43b0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-28 14:34:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>d864611315144f3bbc2281c1c6a49009</sys_id>
+        <sys_metadata>13742e8547032210a348d24b116d435e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Direção</sys_name>
+        <sys_package display_value="UNIT" source="x_1432236_unit">4fa11190474b2210a348d24b116d4323</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope>
+        <sys_scope_delete display_value="">0b17295ce029488c809aa4cbb521b710</sys_scope_delete>
+        <sys_update_name>sys_app_module_13742e8547032210a348d24b116d435e</sys_update_name>
+        <sys_update_version display_value="sys_app_module_13742e8547032210a348d24b116d435e">47c4a2c547032210a348d24b116d43a0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-28 14:34:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

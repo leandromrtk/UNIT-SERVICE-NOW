@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0fcb1918470f2210a348d24b116d4306" label="Cadeiras" max_length="40" name="x_1432236_unit_cadeiras" type="collection">
+        <element label="Professor" max_length="32" name="professor" reference="x_1432236_unit_professores" type="reference"/>
+        <element display="true" label="Nome da cadeira" max_length="40" name="nome_da_cadeira" type="string"/>
+        <element choice="1" label="Periodo" max_length="40" name="periodo" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="6" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="5" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="7" sequence="7" value="7"/>
+                <element inactive_on_update="false" label="8" sequence="8" value="8"/>
+                <element inactive_on_update="false" label="1" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="9" sequence="9" value="9"/>
+                <element inactive_on_update="false" label="4" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="3" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="10" sequence="10" value="10"/>
+                <element inactive_on_update="false" label="2" sequence="2" value="2"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="professor"/>
+        </index>
+    </element>
+</database>
