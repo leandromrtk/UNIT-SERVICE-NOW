@@ -23,8 +23,8 @@
             </choice>
         </element>
         <element label="Data de formação" max_length="40" name="data_de_formacao" type="glide_date"/>
-        <element label="Data de Matricula" max_length="40" name="data_de_matricula" type="glide_date"/>
-        <element choice="1" label="Turno" max_length="40" name="turno" type="choice">
+        <element label="Data de Matricula" mandatory="true" max_length="40" name="data_de_matricula" type="glide_date"/>
+        <element choice="1" label="Turno" mandatory="true" max_length="40" name="turno" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Manhã" sequence="100" value="manha"/>
                 <element inactive_on_update="false" label="Noite" sequence="300" value="noite"/>

@@ -24,7 +24,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Media 02</column_label>
+        <column_label>Media</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -63,13 +63,13 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-02 03:14:06</sys_created_on>
-        <sys_name>Media 02</sys_name>
+        <sys_name>Media</sys_name>
         <sys_package display_value="UNIT" source="x_1432236_unit">4fa11190474b2210a348d24b116d4323</sys_package>
         <sys_policy/>
         <sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope>
         <sys_update_name>sys_dictionary_x_1432236_unit_m2m_x_1432236_un_x_1432236_un_media_02</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-02 03:15:15</sys_updated_on>
+        <sys_updated_on>2025-08-05 23:19:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

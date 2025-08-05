@@ -1,14 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="x_1432236_unit_alunos" table="x_1432236_unit_m2m_x_1432236_un_x_1432236_un">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="horario" table="x_1432236_unit_cadeiras">
         <active>true</active>
         <array>false</array>
-        <attributes>encode_utf8=false</attributes>
+        <attributes/>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+    var turno = current.turno + ''; // Converte para string, se necessário
+ 
+    switch (turno) {
+
+        case 'manha':
+
+            return '08:00 - 10:00';
+
+        case 'tarde':
+
+            return '13:00 - 15:00';
+
+        case 'noite':
+
+            return '18:00 - 20:00';
+
+        default:
+
+            return 'Horário não definido';
+
+    }
+
+})(current);
+
+ ]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Aluno</column_label>
+        <column_label>Horário</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,21 +47,21 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>x_1432236_unit_alunos</element>
+        <element>horario</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Reference">reference</internal_type>
-        <mandatory>false</mandatory>
-        <max_length>32</max_length>
-        <name>x_1432236_unit_m2m_x_1432236_un_x_1432236_un</name>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <name>x_1432236_unit_cadeiras</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_1432236_unit_alunos">x_1432236_unit_alunos</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -46,22 +72,22 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-07-26 01:25:07</sys_created_on>
-        <sys_name>Aluno</sys_name>
+        <sys_created_on>2025-08-05 23:25:58</sys_created_on>
+        <sys_name>Horário</sys_name>
         <sys_package display_value="UNIT" source="x_1432236_unit">4fa11190474b2210a348d24b116d4323</sys_package>
         <sys_policy/>
         <sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope>
-        <sys_update_name>sys_dictionary_x_1432236_unit_m2m_x_1432236_un_x_1432236_un_x_1432236_unit_alunos</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1432236_unit_cadeiras_horario</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-05 23:19:44</sys_updated_on>
+        <sys_updated_on>2025-08-05 23:28:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type/>
+        <virtual>true</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>

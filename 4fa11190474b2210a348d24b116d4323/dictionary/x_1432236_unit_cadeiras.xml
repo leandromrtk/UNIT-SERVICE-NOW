@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="0fcb1918470f2210a348d24b116d4306" label="Cadeiras" max_length="40" name="x_1432236_unit_cadeiras" type="collection">
-        <element label="Professor" max_length="32" name="professor" reference="x_1432236_unit_professores" type="reference"/>
-        <element display="true" label="Nome da cadeira" max_length="40" name="nome_da_cadeira" type="string"/>
-        <element choice="1" label="Periodo" max_length="40" name="periodo" type="choice">
+        <element label="Professor" mandatory="true" max_length="32" name="professor" reference="x_1432236_unit_professores" type="reference"/>
+        <element display="true" label="Nome da cadeira" mandatory="true" max_length="40" name="nome_da_cadeira" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;    var turno = current.turno + ''; // Converte para string, se necessário&#13;&#10; &#13;&#10;    switch (turno) {&#13;&#10;&#13;&#10;        case 'manha':&#13;&#10;&#13;&#10;            return '08:00 - 10:00';&#13;&#10;&#13;&#10;        case 'tarde':&#13;&#10;&#13;&#10;            return '13:00 - 15:00';&#13;&#10;&#13;&#10;        case 'noite':&#13;&#10;&#13;&#10;            return '18:00 - 20:00';&#13;&#10;&#13;&#10;        default:&#13;&#10;&#13;&#10;            return 'Horário não definido';&#13;&#10;&#13;&#10;    }&#13;&#10;&#13;&#10;})(current);&#13;&#10;&#13;&#10; " label="Horário" mandatory="true" max_length="40" name="horario" type="string" virtual="true"/>
+        <element choice="1" label="Turno" mandatory="true" max_length="40" name="turno" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Manhã" sequence="1" value="manha"/>
+                <element inactive_on_update="false" label="Noite" sequence="3" value="noite"/>
+                <element inactive_on_update="false" label="Tarde" sequence="2" value="tarde"/>
+            </choice>
+        </element>
+        <element label="Plano de Ensino" mandatory="true" max_length="8000" name="plano_de_ensino" type="html"/>
+        <element choice="1" label="Periodo" mandatory="true" max_length="40" name="periodo" type="choice">
             <choice>
                 <element inactive_on_update="false" label="6" sequence="6" value="6"/>
                 <element inactive_on_update="false" label="5" sequence="5" value="5"/>

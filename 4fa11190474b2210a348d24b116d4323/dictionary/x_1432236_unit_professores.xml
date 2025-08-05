@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="19799d14470f2210a348d24b116d4374" extends="sys_user" label="Professores" max_length="40" name="x_1432236_unit_professores" type="collection">
-        <element label="Data de contratação" max_length="40" name="data_de_contratacao" type="glide_date"/>
-        <element label="Número da matrícula" max_length="40" name="n_mero_da_matricula" type="string"/>
-        <element label="Supervisor" max_length="32" name="supervisor" reference="sys_user" reference_qual="titleSTARTSWITHGerente^EQ" reference_qual_condition="titleSTARTSWITHGerente^EQ" type="reference"/>
+        <element label="Data de contratação" mandatory="true" max_length="40" name="data_de_contratacao" type="glide_date"/>
+        <element label="Número da matrícula" mandatory="true" max_length="40" name="n_mero_da_matricula" type="string"/>
+        <element label="Supervisor" mandatory="true" max_length="32" name="supervisor" reference="sys_user" reference_qual="titleSTARTSWITHGerente^EQ" reference_qual_condition="titleSTARTSWITHGerente^EQ" type="reference"/>
         <element label="Data de demissão" max_length="40" name="data_de_demissao" type="glide_date"/>
         <element label="Data de Nascimento" max_length="40" name="data_de_nascimento" type="glide_date"/>
         <index name="index">
