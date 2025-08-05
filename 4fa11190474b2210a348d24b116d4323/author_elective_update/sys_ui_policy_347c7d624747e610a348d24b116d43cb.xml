@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions table="x_1432236_unit_alunos">data_de_matriculaISNOTEMPTY^EQ<item endquery="false" field="data_de_matricula" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>200</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Data de matricula não pode ser alterada</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-02 03:28:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>347c7d624747e610a348d24b116d43cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Data de matricula não pode ser alterada</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="UNIT" source="x_1432236_unit">4fa11190474b2210a348d24b116d4323</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope>
+        <sys_update_name>sys_ui_policy_347c7d624747e610a348d24b116d43cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-02 03:28:51</sys_updated_on>
+        <table>x_1432236_unit_alunos</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="UNIT">4fa11190474b2210a348d24b116d4323</application>
+        <file_path/>
+        <instance_id>2bea315deb30a618cbdefceacad0cdfb</instance_id>
+        <instance_name>dev321427</instance_name>
+        <name>sys_ui_policy_347c7d624747e610a348d24b116d43cb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_1432236_unit_alunos"&gt;data_de_matriculaISNOTEMPTY^EQ&lt;item endquery="false" field="data_de_matricula" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;200&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Data de matricula não pode ser alterada&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-08-02 03:28:51&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;347c7d624747e610a348d24b116d43cb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Data de matricula não pode ser alterada&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="UNIT" source="x_1432236_unit"&gt;4fa11190474b2210a348d24b116d4323&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="UNIT"&gt;4fa11190474b2210a348d24b116d4323&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_347c7d624747e610a348d24b116d43cb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-08-02 03:28:51&lt;/sys_updated_on&gt;&lt;table&gt;x_1432236_unit_alunos&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1502710389</payload_hash>
+        <record_name>Data de matricula não pode ser alterada</record_name>
+        <reverted_from/>
+        <source>a822d19847cb2210a348d24b116d439e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-02 03:28:51</sys_created_on>
+        <sys_id>ddecb5a24747e610a348d24b116d4391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19868d33df50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-02 03:28:51</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>d1ecb5a25a47e610bd21f151d5c80791</update_guid>
+        <update_guid_history>d1ecb5a25a47e610bd21f151d5c80791:1502710389</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-02 03:30:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>9e1a08ed20e44e5a98ae6c25f09476a4</sys_id>
+        <sys_metadata>347c7d624747e610a348d24b116d43cb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Data de matricula não pode ser alterada</sys_name>
+        <sys_package display_value="UNIT" source="x_1432236_unit">4fa11190474b2210a348d24b116d4323</sys_package>
+        <sys_parent display_value="Alunos">e7c2955847cb2210a348d24b116d4347</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope>
+        <sys_scope_delete display_value="">0b17295ce029488c809aa4cbb521b710</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_347c7d624747e610a348d24b116d43cb</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_347c7d624747e610a348d24b116d43cb">ddecb5a24747e610a348d24b116d4391</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-02 03:30:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

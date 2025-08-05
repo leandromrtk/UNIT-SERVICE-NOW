@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>solicitao_de_servios_acadmicos</internal_name>
+        <label_cache>[{"name":"958bc8a6-39c5-4477-b801-cbf0652c6197.nome_do_aluno","label":"1 - Get Catalog Variables➛nome_do_aluno","reference":"x_1432236_unit_alunos","reference_display":"nome_do_aluno","type":"reference","base_type":"reference","usedInstances":{"47fe4eec-32bb-4517-94b1-e96a46c1c1e4":["x_1432236_unit_alunos"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"958bc8a6-39c5-4477-b801-cbf0652c6197.materias_para_o_aluno_se_matricular","label":"1 - Get Catalog Variables➛materias_para_o_aluno_se_matricular","reference":"x_1432236_unit_cadeiras","reference_display":"materias_para_o_aluno_se_matricular","type":"reference","base_type":"reference","usedInstances":{"47fe4eec-32bb-4517-94b1-e96a46c1c1e4":["x_1432236_unit_cadeiras"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"f04d4c63-32a4-4e13-829e-b532d27bda33.approval_state","label":"3 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"14ce254e-bf97-4966-b8c9-3862fab85eea":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.5d776d18474f2210a348d24b116d430d}}","label":"Professores UNIT REGIONAL","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"f04d4c63-32a4-4e13-829e-b532d27bda33":["approval_conditions"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Soliticação de Serviços Acadêmicos Record","reference":"x_1432236_unit_solitica_o_de_servi_os_acad_micos","reference_display":"Soliticação de Serviços Acadêmicos","type":"reference","base_type":"reference","usedInstances":{"958bc8a6-39c5-4477-b801-cbf0652c6197":["requested_item"],"7f4890bf-46fd-491c-bd5b-50528bde7a7e":["record"],"f04d4c63-32a4-4e13-829e-b532d27bda33":["record"],"452d013e-4a8c-4382-ad78-aee1d33d9d0d":["record"],"a1670e33-cbc1-484f-8808-d2e9dccccd0c":["record"]},"attributes":{}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Solicitação de serviços acadêmicos</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-02 02:29:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e66f6d6e47c3e610a348d24b116d4353</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Solicitação de serviços acadêmicos</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="UNIT" source="x_1432236_unit">4fa11190474b2210a348d24b116d4323</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope>
+        <sys_update_name>sys_hub_flow_e66f6d6e47c3e610a348d24b116d4353</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-02 02:46:49</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=e66f6d6e47c3e610a348d24b116d4353"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>e66f6d6e47c3e610a348d24b116d4353</documentkey>
+        <fieldname>annotation</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-02 02:29:57</sys_created_on>
+        <sys_id>aa6f6d6e47c3e610a348d24b116d4355</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-02 02:29:57</sys_updated_on>
+        <tablename>sys_hub_flow</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_variable_value action="delete_multiple" query="document_key=e66f6d6e47c3e610a348d24b116d4353"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=e66f6d6e47c3e610a348d24b116d4353"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=e66f6d6e47c3e610a348d24b116d4353^sys_idNOT INba6fa9ee47c3e610a348d24b116d435b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>e66f6d6e47c3e610a348d24b116d4353</id>
+        <name>Solicitação de serviços acadêmicos</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-02 02:29:57</sys_created_on>
+        <sys_id>ba6fa9ee47c3e610a348d24b116d435b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-02 02:29:57</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=ba6fa9ee47c3e610a348d24b116d435b"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=e66f6d6e47c3e610a348d24b116d4353^sys_idNOT IN44c2bde24707e610a348d24b116d433b,84c279624707e610a348d24b116d4388"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Solicitação de serviços acadêmicos">e66f6d6e47c3e610a348d24b116d4353</model>
+        <model_id>e66f6d6e47c3e610a348d24b116d4353</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_e66f6d6e47c3e610a348d24b116d4353</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-02 02:44:32</sys_created_on>
+        <sys_id>44c2bde24707e610a348d24b116d433b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-02 02:44:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=44c2bde24707e610a348d24b116d433b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Solicitação de serviços acadêmicos">e66f6d6e47c3e610a348d24b116d4353</model>
+        <model_id>e66f6d6e47c3e610a348d24b116d4353</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_e66f6d6e47c3e610a348d24b116d4353</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-02 02:44:32</sys_created_on>
+        <sys_id>84c279624707e610a348d24b116d4388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-02 02:44:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=84c279624707e610a348d24b116d4388"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=e66f6d6e47c3e610a348d24b116d4353"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e66f6d6e47c3e610a348d24b116d4353"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=e66f6d6e47c3e610a348d24b116d4353^sys_idNOT IN1cc2bde24707e610a348d24b116d4362"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Solicitação de serviços acadêmicos">e66f6d6e47c3e610a348d24b116d4353</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-02 02:44:32</sys_created_on>
+        <sys_id>1cc2bde24707e610a348d24b116d4362</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-02 02:46:49</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VYy27jNhT9FUGrFnABPfyIs0uTDBpgOkFtT7sIUoESSZuoTLoipcQzyNd0MUB/Iz/WSz1sWZIdO1amziaA+bqHR+eee5m7r2aIfBKa5+YE+SExOybjikQchZPlgsCw0sMeR3M9N0ccIyWipXmuoph0TBqJ+YTMFyFSsJiiUMKgiDCJzHO7YyYojMl4KW8wnAT702PyM818Gn4/enbXdRy378WcKU+KkCkWIE94mHiSRAnzhPRQgLA3Z4GQsBUzCUGXv+cnjPMtz9+e/xEGJsZY73r+JqRxAdue/y32BTMW4ohw8/zuvmMuUASIlEb7tTLFNOSABmjoECtwbcBnWc5Z1/b7rm872EXEsuDAKn2VK6oGFtf8kEdFOCZ4RV2N4IggfMvD5WrFDL5PRuYcPUr2BU4/s/Q6SgB7QLK51U8vJyobDmaCBeR2oZjg2UiGM5sUYTznnzL8mmJCURyqgmIYiSWcRxYasgaRI6LjmXgYFQE/MJ7eLp8MRYDC1S+kVMT8WBGpCacsBOq9jBsp4ihFP7q+vB1deX9cTC5/uR55o+vxZHRzObm+Mp/Se3l/x/rEDGGOxcuu87TSxQdGQv0BeTz3AU3HlEHEFuoiUCwphPrUWYv/UnDMUlZqCRAUU3IzAYrb78oAy9qaA0EpYpEHf17/Vpd2NniYbvt9hDBBW3Tr05JuyzdvgKYaSCjfbpeC85F9JNy1rP9JxLmPvVbDc4FJeLU+zoTJ6RRUzfgiVpqtB8SV9JTwEMZeiUe9FDC9JOrsbk8vKjiKOWzwVt+jruOUthV/H5kEuHeQhQU36ZEwTz/mR45ibgj4cPDHCOIIqFFG4Wv0Zo6mOaN0TEISqJII6GdZ/vUrk5LxaQn1KmjKQS3mKhyIySiulMWWRwa/bzOJ66QnFTIryXxwJts2pT6hjjXQeWxbrk9ta2D1EMWuZQVOKZPrYLaiVBVJvElGH5bPMhVjuIf0qhTn4K1yNuwlo2RTgwUJWiK5bVy2A81uCZqjoVXszz3I/1ayzIavNtW562ot136EEwQ78L42uKcD0lA8gPW+wv18FPw1jUTMcdWO9JkG48Z6hfFDzt+PLTohFRHZDWBzxSl54Jr2QriIL1twP5fa/pB0iQWm54Lf+b3h0A+QQ+mgPyCOXXG/NYxGbO/C9V5QW9Ik120O2CicpElvB3jfEQBrPngwwOMdMBdmo/9lc+/D6R5mhHsANfJC7WU1w5uGDB7P+Vy72V4Lnazz+9iMp2fDoGcPBsEAXi2Q8bRLfGR3nR4aDvruWa+S8TUou2CqBma+y1tGLmUKZIsbfM6mTutx/paylUQpXY4Or9Ic+th0D8qClCql/ixGaioiMj4J/tPNep0xJlAA0wdtW+V6HxT6wxpvC8MXalbrFyD0zzC+EVr3mVtYObknVUUkyeZdj35Ske5Zb0jdZouhwyaLWYPZDvPk24s9MyTZmmtNfca+gk8a82ZrY/AKCVdkUu4YdrQ0bZFit06K83akuEe3UUUubn1HvgbsOyphaV9xTB3TMYknaNm8r4QBEwYEMRg18v8kEmz4S0PNCFAaQr8MAQ0d/VjXLleROpSVgr8vkKwDr1UzGDbyBur0ClVFCu2+gAkeoF7P3dIPD6sv4CZAL+A9+bJ1cFYkTUm2s3Yddm71zMbqVZLspiL2rEut3rq5OB1368by9NKtjy88u97vDShOtKTc/wecOwzDeR8AAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=e66f6d6e47c3e610a348d24b116d4353^sys_idNOT IN90c2bde24707e610a348d24b116d4368,d0c2bde24707e610a348d24b116d4365,d0c2bde24707e610a348d24b116d436b,d0c2bde24707e610a348d24b116d436c,d8c2bde24707e610a348d24b116d436a,dcc2bde24707e610a348d24b116d4366"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Solicitação de serviços acadêmicos">e66f6d6e47c3e610a348d24b116d4353</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-02 02:44:32</sys_created_on>
+        <sys_id>90c2bde24707e610a348d24b116d4368</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-02 02:46:49</sys_updated_on>
+        <ui_id>f04d4c63-32a4-4e13-829e-b532d27bda33</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YzW7bOBB+FUNnx6t/y74FG6ToYncLxGkvcUDQ5ChmIVOuSKXxGn6aHgr0NfJiO5QoW7ET10hdpC16McDh/Hwz8w1F+mrpCO4MnX6S+jAY+O7Ec93AdZOIuUkAk6Af9wPKXKfrSDoD1CyA5QXH9S3NSiNYLv8sgGrgxOuxsihA6tUK97lQ84wu3lk1lLCpyDjuO8Or664zpwV61FA4w+XWll7MgWR0AhkanuWsnKHTzusz9HEo2sb6ooG7Dd/EwDW33okwQtwyeNyuA3caJAeMltJMQdeZUcmpzouFM9RFiQJMmr+R2WKtMRVS14nO6J0S/6H7wDd6KWBmzBZhvSS2QE1tcsHgzVyLXNYSTSdZU7g8K2fy3zoDU1pIaZnpVmlLhf5gbiAbEDXCdDTNP1408c6FrJKzaLOc0Wy9oloXYlJqUKYbkEFVkxmdz4W8IfMivxWVMUKZ9W4yXPTSLP+IMZW4kT3KDO4eFoj2zlF+Vonf0UKYJP5BN2i8qpInH0oTt07DAiZVznXCqKVYIeb6FH3egkW46lqiTtje1rNNp2t3G57eES8MfD+ISSmFJirPhBaMkhyTIAqKW0FyRSijnMwEy9UuhUfW5P7z/ae8w6EzMlb3n3PVOUWz+y+N3fOIfmkAd6oudw9O9oHxbvKW5dWSyNq1Jbm3n+RWcgjLE/dlWG4R/WQ0/xrDIYyDCH/6aeB6vucmECcJG7iUJXEchcGmyRgPEdOMYJMU+t5w/YjH7wgrJm8aRh4ArjE8teg6Fw26J2FblqomlGWofzSGevFPStFSXG7Vppb8vd2d78NlE+6tFB9KeG26H/uTeOAm/ISn7uQkTILohDJwTyD2Ioh4zCIv+Gb+u96+Q48njxApFZC1ryTNxu4YtHaeNw7nJtSDQ/oAvDsjcW4BP5WIHYhquXVsH28oEtd9oan4da8nbC8ZoHV4v8/LQu7hLpkKVbX0SQ63NI7F5QPgN8Z/1fi3qbyd1h4mB7+Z/AMzOYz2UgEeOb1YLrkw+FSLz/WZB+oC3gPT6lQuXl0tl0pTvEn3It7vx9xLwn6Y+nidoEGYcD+ceF7Mw8Dlq9X1Lv+P4PF587K50ZQZqGZmDijU+jFq7fYWzk7M5pZkjezUhMd6m77c0Pya93a2lwfpYNN3XmI5qG4/TpdjpwY5doZjR+YSxk537BgtYghRiVEDwa03KtlyuVrVkrKg1oHXWm6sOV2oSlOxKXAkVSV9IKmZbuXH/A9nZAN0zhD3H5ei9cX5etXWfwSVtf2jhWyeEE0mdeVE+3sTHe17E/4enK1HAllfrPHzgkfQs6fp+n9koCjGkhQAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=90c2bde24707e610a348d24b116d4368"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Solicitação de serviços acadêmicos">e66f6d6e47c3e610a348d24b116d4353</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-02 02:44:32</sys_created_on>
+        <sys_id>d0c2bde24707e610a348d24b116d4365</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-02 02:46:49</sys_updated_on>
+        <ui_id>958bc8a6-39c5-4477-b801-cbf0652c6197</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VU224aMRD9ldU+I7TLEqC8paki9aGNFKq8RJHl9c6CVa+98QVCEV/Th0r9jfxYx3sBQgpBUVpV6qPHczlzZs7crkKeheMwzaOUJjRlSRzFSRT1Rv04HSRp3MsSCkDDTihpAeip4d6BsZARbqFA+5wK5z9WqwsN1H/EXea0BmnXa/zPuCkFXd40bmhhMy4y/A/Ht3edsKQaM1vQ4Xi192WXJRBBUxAYeA054A8DzHAq5jZ24tKCW8QWXNfwj/Tji1b2bTmlMw8v6oTwYEFmgOVzKgx0woLKjFqll+HYaocG5CC7kmK58Zhxaeu+C/pg+DdMnvQ6O/nHoWEEYbQANj+koa5qvkEZfKyd2ExxBlel5UrW2S1NRUuwEq6Qn+sG/Qggp07YnRE4g9mh9L14dA3UfDJTiw3Pl1xWbTefQjEqNi9qreaps2D82EBAgYlIQcuSyykptZrzKhixFN2pwEc3F2qBRQ2fyi5lHngXqaPdS7R/qMw3VHPfxSdMg8FIPBJJMq3KsmnOcxyuK47IvfN46v6aTkhNBjoYpnlpz7HMHBrQ60677Omxxcnj7XIg1zgAC4QhUKGm+zufjlgKMaX9IUtgEEc06Y+yXj+N40HWT4b0+fpPlOCMW/r44/G7Cs4ZzR5/FpzRN5TFy921sV+a9oKLur1quUyAKx20owgmYM3LhBwWTfzHRGOJWZonQAzBxGTeQCemhv47Pb3c8P8hMG7w8hQKB1p1R3YJrrSGSkLISCXVbLY1zrAe0U5aXgCp1EC4JKo0cw6Lt9Lp8PgmD7dr2S5BO3qzo9GEJWyQHdLou7Ox3xyE7vkiEhadwWDEBmdwICAZ7Qc8F/nfKPm6azERzsyC9459BdsejBNobsNb2dzs8HxkBM1VML5o2tZs7kLv+F1oLKcchrgXRdHT23BA9f+crFF+OZ5TpGHLG84XKlLCKgSL/inxnyRiXBLJhEPPAqngGqtsoPpLuXHz1OyAAE0Wuq60cSk1xui5v8wCmK2abK+Mcpo1Vwit+/v+2lNy9wvKbJX64QoAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d0c2bde24707e610a348d24b116d4365"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Solicitação de serviços acadêmicos">e66f6d6e47c3e610a348d24b116d4353</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>14ce254e-bf97-4966-b8c9-3862fab85eea</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-02 02:44:32</sys_created_on>
+        <sys_id>d0c2bde24707e610a348d24b116d436b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-02 02:44:32</sys_updated_on>
+        <ui_id>452d013e-4a8c-4382-ad78-aee1d33d9d0d</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UTWsbMRD9K8uel2U/HJP4FmoMPTSBuOSSBqGVxrFAu9pKWseu8a/pIdC/4T/W0a7WcZw2NcFQCtVtRpo3740ec7cOBQ9H4QB4kl6kQ5aneZ4lSXY+SIthXqQZzylAGkZhRUvAlxqY0hzjBZWNS6zXHzRQC5ykMWu0hspuNnjPhaklXd36Z5hhcyE53oeju/sorKlGRAs6HK0PruyqBiJpARILx4o1JYIGH8eIcSzbvvqmp3tI3/XAmHt0IlwSrxyfNIlCWFqoOGC7GZUGorCkFadW6VU4srrBBKrm15Vc7V7MRWU7pSVdGvEN8QeJezcDlMb8FHYh8RPqh6MEg+vaClV1GUsL2U9OyaasrjoJbrYwo420e7NtDOJB7Sg7Eh3D2XSuHm/6fhNRteo8W6kYlbuIWqtF0Vgw7jtAQjuUkta1qB5IrdVCtMVIpYwfJAbxTKpH7GnEQxVT5njHOCAaTzA/btO3VAsn4hPCYPGmFU++Nq5vJ8MTJq3mVjBpPwqfGqZFbS8ReAGe5ibydi3O3jIAu3j+7z3MZ8suSTrIsywfkqYSlhglhRWMEoVyiAG9EEQZQhnlpBRMmddunvqS7dP2uwo4BFNXtX1SJrjEsu2Pvu59nv/sWAdXHetjFb8o/s0EvOtf5Lzpz05m+vO/ZHrP6B9z/Z+8nmRvLru9n27tbfZ8bizu5S9NkuQ8f+3hg9t3OhVKxLQQdKjR0Zx7gIkAyc0vRPRW9Q3IwjfY7eiT+TUdJu35v6pPuKrvfwLiC+EBWwgAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d0c2bde24707e610a348d24b116d436b"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Solicitação de serviços acadêmicos">e66f6d6e47c3e610a348d24b116d4353</flow>
+        <generation_source/>
+        <order>9</order>
+        <parent_ui_id>d4ba4ed8-28f5-4cba-8c78-1a717cda440a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-02 02:44:32</sys_created_on>
+        <sys_id>d0c2bde24707e610a348d24b116d436c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-02 02:46:49</sys_updated_on>
+        <ui_id>a1670e33-cbc1-484f-8808-d2e9dccccd0c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UTWsbMRD9K8uel2U/HJP4FmoMPTSBuOSSBqGVxrFAu9pKWseu8a/pIdC/4T/W0a7WcZw2NcFQCtVtRpo3740ec7cOBQ9H4QB4kl6kQ5aneZ4lSXY+SIthXqQZzylAGkZhRUvAlxqY0hzjBZWNS6zXHzRQC5ykMWu0hspuNnjPhaklXd36Z5hhcyE53oeju/sorKlGRAs6HK0PruyqBiJpARILx4o1JYIGH8eIcSzbvvqmp3tI3/XAmHt0IlwSrxyfNIlCWFqoOGC7GZUGorCkFadW6VU4srrBBKrm15Vc7V7MRWU7pSVdGvEN8QeJezcDlMb8FHYh8RPqh6MEg+vaClV1GUsL2U9OyaasrjoJbrYwo420e7NtDOJB7Sg7Eh3D2XSuHm/6fhNRteo8W6kYlbuIWqtF0Vgw7jtAQjuUkta1qB5IrdVCtMVIpYwfJAbxTKpH7GnEQxVT5njHOCAaTzA/btO3VAsn4hPCYPGmFU++Nq5vJ8MTJq3mVjBpPwqfGqZFbS8ReAGe5ibydi3O3jIAu3j+7z3MZ8suSTrIsywfkqYSlhglhRWMEoVyiAG9EEQZQhnlpBRMmddunvqS7dP2uwo4BFNXtX1SJrjEsu2Pvu59nv/sWAdXHetjFb8o/s0EvOtf5Lzpz05m+vO/ZHrP6B9z/Z+8nmRvLru9n27tbfZ8bizu5S9NkuR88NrDB7fvdCqUiGkh6FCjozn3ABMBkptfiOit6huQhW+w29En82s6TNrzf1WfcFXf/wRu/sgRWwgAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d0c2bde24707e610a348d24b116d436c"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Solicitação de serviços acadêmicos">e66f6d6e47c3e610a348d24b116d4353</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>14ce254e-bf97-4966-b8c9-3862fab85eea</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-02 02:44:32</sys_created_on>
+        <sys_id>d8c2bde24707e610a348d24b116d436a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-02 02:44:32</sys_updated_on>
+        <ui_id>47fe4eec-32bb-4517-94b1-e96a46c1c1e4</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9VUyW7bMBD9lYBnWdBiy8utaOFbE6AtcklTgiJHNgGKVEnKiWvo3zuUZDcJYtQtChTRbd4M571ZNHcHIgVZkSKFZLZMC56neZ4lSbaYpmWRl2kmcgYwJRHRrAaM9KxUQHsjIjum2gA+0nSaZ1le0FZLT+uspk+hZwY+E9I1iu1vL3uNEAZq4+h7JkBa5jAF30olLGiyuruPSMMsCvJgyerwwuX3DVDFSlDI9CWIv7oexF9a+LPHZxoRWF5ixoogKIkIPHrQApCvYspBRGqmBfPG7snK2xYBC0zcaLU/RWyl9piQhNhHJ39g9kUS4irA0jgMvpNJx5YOMN8ayeGm8dLoAemFjU6j2lpfD0WEYUDFWuWPw0CkdZgPmiA5iBgVVZ+35uHTkXAtdV/d6FSGM3WymPdWlq0HF+YBCmpMRGvWNFJvaGPNTvaPUUsdbxQacaXMA5I6udEx40F4jB1i8RrxDz18y6wMVXzENPi466un39vAO9QxKqZD0RjguJWNf4fpdjCK66LjxgtIlmcHn5a/Bt0vuTu/7Xzcyq9tkuTicFjOFiVfsGKSL/lsMp3O55NykaQTXlZJMct4kS7ncc1wWyVzNKwuNcOGU2w8OqzkrWK26769+hv8EY82NQ5zzN91v/353lgxf3kGoMYWeLgamhBdvBHHBGsJSrhXVuR4B0YCuhsJxluQ/qtbkBZJ//2fizDofGMH4cltPnMa7n8CxnrFsA4HAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d8c2bde24707e610a348d24b116d436a"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Solicitação de serviços acadêmicos">e66f6d6e47c3e610a348d24b116d4353</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-02 02:44:32</sys_created_on>
+        <sys_id>dcc2bde24707e610a348d24b116d4366</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-02 02:44:32</sys_updated_on>
+        <ui_id>7f4890bf-46fd-491c-bd5b-50528bde7a7e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VXU/bMBT9K1GeqypOQil9q8aYkLYyAeOFMsuJb4olJ85sp9BV/TV7QNrf6B/bdT5KYYxVCGlCWt58fe+551wfx5dLX3B/5MfAA3JABmlEoigMgnAYk2QQJSTkEQMgfs8vWA6YqSFVmuN6zmTlAsvlOw3MAqekn1ZaQ2FXK9znwpSSLS7aNIyk10Jy3PdHl1c9v2QaES1of7R8tGUXJVDJEpBYeKjSKkdQ7/gQMXZl21WfdnQf03c9cM1bdCpcELccHxL0fLi1UHDAdhmTBnp+zgrOrNILf2R1hQFUzU8KudhkXIvCNkpzdmvEd8SPA5eXAUpL2ylslrSdUDccJVI4Ka1QRROxLJHd5JSs8mLSSHCzhYxV0m7NtjKIB6Wj7Eg0DLOza3Vz2vU7EkWtrmUrVcrkZsWs1SKpLBh3HCChHkrOylIUM1pqNRd1MVLJ+zOJi34m1Q32NGJW9FnqePdxQKx/hPHDOnzBtHAiPiEMFq9q8fRb5fo2MlrCtNZcC6b1QWGqSbUo7RiB59DSXPVauyZ7zxkgPbg/7y3Me8veUhJHYRgNaFUIS42SwoqUUYVyqAE9F1QZylLGaS5SZX5381lbsr5b/1AeB+/MVa3vlPHGWLb+2dW9zPPnjrU3aVjvqvhB8R8m0Lr+Qaw1/d6rmX74j0zfMnpjrv+b14Pw2Z/d1knX9jZbPjcW/8vTKggiHn5lxpGrBc60qsomvpx21p76o6n/WasMjFEajPdlcnzunb7/cHwyGX+c+r1pg1vn7fH9/QEnw3g/zsKQBCyKhzyME0IGPI4CXqebhcHf6o75TzwZb43+C+865MjfgtfI7u186h3AkQDJzRM26C5724DO2wabV+7VbjwZBPX3/7F7xcfu6hcxX0BznQkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=dcc2bde24707e610a348d24b116d4366"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=e66f6d6e47c3e610a348d24b116d4353"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=e66f6d6e47c3e610a348d24b116d4353^sys_idNOT IN394339264707e610a348d24b116d43fd,5cc2bde24707e610a348d24b116d436b,794339264707e610a348d24b116d43fc,90c2bde24707e610a348d24b116d4369"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">754339264707e610a348d24b116d43fd</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Solicitação de serviços acadêmicos">e66f6d6e47c3e610a348d24b116d4353</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>10</order>
+        <outputs_assigned/>
+        <parent_ui_id>d4ba4ed8-28f5-4cba-8c78-1a717cda440a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-02 02:46:49</sys_created_on>
+        <sys_id>394339264707e610a348d24b116d43fd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-02 02:46:49</sys_updated_on>
+        <ui_id>c83b317b-a23d-4e7d-ab6d-f752a8e82ac2</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">98c2bde24707e610a348d24b116d436b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Solicitação de serviços acadêmicos">e66f6d6e47c3e610a348d24b116d4353</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <parent_ui_id>14ce254e-bf97-4966-b8c9-3862fab85eea</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-02 02:44:32</sys_created_on>
+        <sys_id>5cc2bde24707e610a348d24b116d436b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-02 02:46:49</sys_updated_on>
+        <ui_id>5b664759-0996-447d-a62b-852f6e2590e0</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">b54339264707e610a348d24b116d43fc</block>
+        <comment/>
+        <connected_to>14ce254e-bf97-4966-b8c9-3862fab85eea</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Solicitação de serviços acadêmicos">e66f6d6e47c3e610a348d24b116d4353</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-02 02:46:49</sys_created_on>
+        <sys_id>794339264707e610a348d24b116d43fc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-02 02:46:49</sys_updated_on>
+        <ui_id>d4ba4ed8-28f5-4cba-8c78-1a717cda440a</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">58c2bde24707e610a348d24b116d4368</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Solicitação de serviços acadêmicos">e66f6d6e47c3e610a348d24b116d4353</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-02 02:44:32</sys_created_on>
+        <sys_id>90c2bde24707e610a348d24b116d4369</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-02 02:46:49</sys_updated_on>
+        <ui_id>14ce254e-bf97-4966-b8c9-3862fab85eea</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VUU/bMBD+K8jPbeXYaaC8oU1ISGxIA/GyoehiX1prrp3FDtBV/e87JykgVrRp4nFv8Xfnu+8736dsme9i08Vw489CMEvHTr/eTZhxCaPvLautf7j0S6MuXIjgFF5vwoVmp2zBlag0ivyYH2ORcZD5iRZ5lWWFzmWxYBPmYI2UqbzTJhrvyh6YsHuwXQoEPIKm9fegPaHahMbC5vZgUK2M1S2O/BpoqVLElp1uX4XipsHSQoWWalzH1rglXTeJcc2hzhYqU1IUUnAuTvKsKmSVCS0BQVLe/uKHPeWjyx55W0vql9juO/lWJ1oZnzB8jOg0UusabMAJW4PTEH27eUJaBH3l7DOwMi5SOZaSH4P5SbXFfJ4SaySNCofg07EcpzbAauWNwqsmERyQCJUd7yhvu7X7POhI88YaOhv38yakC1QPm0Q6sRgp1dcr//Bl3/DcuF7gGLRegX06QaQxVF3EkB4GLa6pULmGpqHhlOk1TX+ZuKxnS0uHWdovapp2bwYqEZ/RjGB2TvjHHr6F1iQVn6gMXR5oVhCMKvs9pXKxJQm7fizljy4RGgSOUsphGpQQVGuaeEZ97nFkvZu875K/2O/ttua5zlUhp1JAPs0xk9MTscBpNZdCi+NKg5Qz0pX23JbUO+Ju963jXOoBpe35zRnvVfY9PLWAeT3P+Pywp/LikKcOD+0NI4k/GCk9/V/6iHP+30gvjWRCORhi1NY3/2cf3aXFHzqEYW80KhOIyE3CLvb/lBTY0AIktz1DD779niQ8Y7tfsfYtK50GAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=e66f6d6e47c3e610a348d24b116d4353"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=e66f6d6e47c3e610a348d24b116d4353"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>pb</language>
+        <name>var__m_sys_hub_flow_input_e66f6d6e47c3e610a348d24b116d4353</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-02 02:44:32</sys_created_on>
+        <sys_id>14c2bde24707e610a348d24b116d433d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="UNIT" source="x_1432236_unit">4fa11190474b2210a348d24b116d4323</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-02 02:44:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>pb</language>
+        <name>var__m_sys_hub_flow_input_e66f6d6e47c3e610a348d24b116d4353</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-02 02:44:32</sys_created_on>
+        <sys_id>88c2bde24707e610a348d24b116d433a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="UNIT" source="x_1432236_unit">4fa11190474b2210a348d24b116d4323</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-02 02:44:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_e66f6d6e47c3e610a348d24b116d4353"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_e66f6d6e47c3e610a348d24b116d4353"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=e66f6d6e47c3e610a348d24b116d4353"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=e66f6d6e47c3e610a348d24b116d4353"/>
+</record_update>

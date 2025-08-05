@@ -1,19 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="media" table="x_1432236_unit_m2m_x_1432236_un_x_1432236_un">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="media_02" table="x_1432236_unit_m2m_x_1432236_un_x_1432236_un">
         <active>true</active>
         <array>false</array>
         <attributes/>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
+    var nota1 = parseFloat(current.nota_01);
+    var nota2 = parseFloat(current.nota_02);
+ 
+    var hasNota1 = !isNaN(nota1);
+    var hasNota2 = !isNaN(nota2);
+ 
+    if (hasNota1 && hasNota2) {
+        return (nota1 + nota2) / 2;
+    } else if (hasNota1) {
+        return nota1;
+    } else if (hasNota2) {
+        return nota2;
+    } else {
+        return null;
+    }
 })(current);]]></calculation>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Media</column_label>
+        <column_label>Media 02</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,15 +37,15 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>media</element>
+        <element>media_02</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Integer">integer</internal_type>
+        <internal_type display_value="Decimal">decimal</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>20</max_length>
         <name>x_1432236_unit_m2m_x_1432236_un_x_1432236_un</name>
         <next_element/>
         <primary>false</primary>
@@ -51,21 +62,21 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-07-26 01:28:42</sys_created_on>
-        <sys_name>Media</sys_name>
+        <sys_created_on>2025-08-02 03:14:06</sys_created_on>
+        <sys_name>Media 02</sys_name>
         <sys_package display_value="UNIT" source="x_1432236_unit">4fa11190474b2210a348d24b116d4323</sys_package>
         <sys_policy/>
         <sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope>
-        <sys_update_name>sys_dictionary_x_1432236_unit_m2m_x_1432236_un_x_1432236_un_media</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1432236_unit_m2m_x_1432236_un_x_1432236_un_media_02</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-26 01:28:42</sys_updated_on>
+        <sys_updated_on>2025-08-02 03:15:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
+        <virtual>true</virtual>
         <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>

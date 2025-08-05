@@ -4,13 +4,13 @@
             <element>name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-26 01:17:35</sys_created_on>
-            <sys_id>e2bb5518470f2210a348d24b116d4325</sys_id>
+            <sys_created_on>2025-08-01 01:18:43</sys_created_on>
+            <sys_id>15851c16470b6610a348d24b116d432b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1432236_unit_professores" sys_domain="global" view="Default view">dc3b55d4470f2210a348d24b116d4366</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-26 01:17:35</sys_updated_on>
+            <sys_updated_on>2025-08-01 01:18:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>n_mero_da_matricula</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-26 01:17:35</sys_created_on>
-            <sys_id>6abb5518470f2210a348d24b116d4325</sys_id>
+            <sys_created_on>2025-08-01 01:18:43</sys_created_on>
+            <sys_id>dd851c16470b6610a348d24b116d432b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1432236_unit_professores" sys_domain="global" view="Default view">dc3b55d4470f2210a348d24b116d4366</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-26 01:17:35</sys_updated_on>
+            <sys_updated_on>2025-08-01 01:18:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,55 +32,69 @@
             <element>data_de_contratacao</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-26 01:17:35</sys_created_on>
-            <sys_id>eebb5518470f2210a348d24b116d4325</sys_id>
+            <sys_created_on>2025-08-01 01:18:43</sys_created_on>
+            <sys_id>55851c16470b6610a348d24b116d432c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1432236_unit_professores" sys_domain="global" view="Default view">dc3b55d4470f2210a348d24b116d4366</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-26 01:17:35</sys_updated_on>
+            <sys_updated_on>2025-08-01 01:18:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>data_de_demissao</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-01 01:18:43</sys_created_on>
+            <sys_id>d9851c16470b6610a348d24b116d432c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1432236_unit_professores" sys_domain="global" view="Default view">dc3b55d4470f2210a348d24b116d4366</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-01 01:18:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>location</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-26 01:17:35</sys_created_on>
-            <sys_id>66bb5518470f2210a348d24b116d4326</sys_id>
+            <sys_created_on>2025-08-01 01:18:43</sys_created_on>
+            <sys_id>51851c16470b6610a348d24b116d432d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1432236_unit_professores" sys_domain="global" view="Default view">dc3b55d4470f2210a348d24b116d4366</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-26 01:17:35</sys_updated_on>
+            <sys_updated_on>2025-08-01 01:18:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>active</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-26 01:17:35</sys_created_on>
-            <sys_id>eabb5518470f2210a348d24b116d4326</sys_id>
+            <sys_created_on>2025-08-01 01:18:43</sys_created_on>
+            <sys_id>d5851c16470b6610a348d24b116d432d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1432236_unit_professores" sys_domain="global" view="Default view">dc3b55d4470f2210a348d24b116d4366</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-26 01:17:35</sys_updated_on>
+            <sys_updated_on>2025-08-01 01:18:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>supervisor</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-26 02:03:50</sys_created_on>
-            <sys_id>0056a1d4474f2210a348d24b116d43e3</sys_id>
+            <sys_created_on>2025-08-01 01:18:43</sys_created_on>
+            <sys_id>5d851c16470b6610a348d24b116d432d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1432236_unit_professores" sys_domain="global" view="Default view">dc3b55d4470f2210a348d24b116d4366</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-26 02:03:50</sys_updated_on>
+            <sys_updated_on>2025-08-01 01:18:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

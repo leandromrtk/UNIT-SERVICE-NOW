@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_can_read_mtom">
+    <kb_uc_can_read_mtom action="DELETE">
+        <kb_knowledge_base display_value="Secretaria Virtual">cc0d1452474b6610a348d24b116d4370</kb_knowledge_base>
+        <sys_class_name>kb_uc_can_read_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-01 01:53:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ae7d9c52474b6610a348d24b116d437e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Secretaria Virtual.Any User</sys_name>
+        <sys_package display_value="UNIT" source="x_1432236_unit">4fa11190474b2210a348d24b116d4323</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope>
+        <sys_update_name>kb_uc_can_read_mtom_ae7d9c52474b6610a348d24b116d437e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-01 01:53:29</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </kb_uc_can_read_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="UNIT">4fa11190474b2210a348d24b116d4323</application>
+        <file_path/>
+        <instance_id>2bea315deb30a618cbdefceacad0cdfb</instance_id>
+        <instance_name>dev321427</instance_name>
+        <name>kb_uc_can_read_mtom_ae7d9c52474b6610a348d24b116d437e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_can_read_mtom"><kb_uc_can_read_mtom action="INSERT_OR_UPDATE"><kb_knowledge_base display_value="Secretaria Virtual">cc0d1452474b6610a348d24b116d4370</kb_knowledge_base><sys_class_name>kb_uc_can_read_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-01 01:53:29</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ae7d9c52474b6610a348d24b116d437e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Secretaria Virtual.Any User</sys_name><sys_package display_value="UNIT" source="x_1432236_unit">4fa11190474b2210a348d24b116d4323</sys_package><sys_policy/><sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope><sys_update_name>kb_uc_can_read_mtom_ae7d9c52474b6610a348d24b116d437e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-01 01:53:29</sys_updated_on><user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria></kb_uc_can_read_mtom></record_update>]]></payload>
+        <payload_hash>-2016483139</payload_hash>
+        <record_name>Secretaria Virtual.Any User</record_name>
+        <reverted_from/>
+        <source>a822d19847cb2210a348d24b116d439e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-01 01:53:29</sys_created_on>
+        <sys_id>3e7d9c52474b6610a348d24b116d4381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198635593ca0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-01 01:53:29</sys_updated_on>
+        <type>Who Can Read Knowledge Base</type>
+        <update_guid>327d9c520d4b66102c9c7047c4c70081</update_guid>
+        <update_guid_history>327d9c520d4b66102c9c7047c4c70081:-2016483139</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Secretaria Virtual.Any User">70cdd052474b6610a348d24b116d43a7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-01 01:54:43</sys_created_on>
+        <sys_db_object display_value="" name="kb_uc_can_read_mtom">kb_uc_can_read_mtom</sys_db_object>
+        <sys_id>35d173cb83894c489c87d638c0714a40</sys_id>
+        <sys_metadata>ae7d9c52474b6610a348d24b116d437e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Secretaria Virtual.Any User</sys_name>
+        <sys_package display_value="UNIT" source="x_1432236_unit">4fa11190474b2210a348d24b116d4323</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope>
+        <sys_scope_delete display_value="">0b17295ce029488c809aa4cbb521b710</sys_scope_delete>
+        <sys_update_name>kb_uc_can_read_mtom_ae7d9c52474b6610a348d24b116d437e</sys_update_name>
+        <sys_update_version display_value="kb_uc_can_read_mtom_ae7d9c52474b6610a348d24b116d437e">3e7d9c52474b6610a348d24b116d4381</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-01 01:54:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -4,13 +4,13 @@
             <element>name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-26 01:06:44</sys_created_on>
-            <sys_id>2f395914470f2210a348d24b116d430b</sys_id>
+            <sys_created_on>2025-08-01 00:22:54</sys_created_on>
+            <sys_id>7bb88c9247c76610a348d24b116d43d1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1432236_unit_alunos" sys_domain="global" view="Default view">3ba7d590470f2210a348d24b116d43b5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-26 01:06:44</sys_updated_on>
+            <sys_updated_on>2025-08-01 00:22:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>turno</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-26 01:06:44</sys_created_on>
-            <sys_id>a3395914470f2210a348d24b116d430c</sys_id>
+            <sys_created_on>2025-08-01 00:22:54</sys_created_on>
+            <sys_id>37b88c9247c76610a348d24b116d43d2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1432236_unit_alunos" sys_domain="global" view="Default view">3ba7d590470f2210a348d24b116d43b5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-26 01:06:44</sys_updated_on>
+            <sys_updated_on>2025-08-01 00:22:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>data_de_matricula</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-26 01:06:44</sys_created_on>
-            <sys_id>2b395914470f2210a348d24b116d430c</sys_id>
+            <sys_created_on>2025-08-01 00:22:54</sys_created_on>
+            <sys_id>bbb88c9247c76610a348d24b116d43d2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1432236_unit_alunos" sys_domain="global" view="Default view">3ba7d590470f2210a348d24b116d43b5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-26 01:06:44</sys_updated_on>
+            <sys_updated_on>2025-08-01 00:22:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>location</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-26 01:06:44</sys_created_on>
-            <sys_id>af395914470f2210a348d24b116d430c</sys_id>
+            <sys_created_on>2025-08-01 00:22:54</sys_created_on>
+            <sys_id>33b88c9247c76610a348d24b116d43d3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1432236_unit_alunos" sys_domain="global" view="Default view">3ba7d590470f2210a348d24b116d43b5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-26 01:06:44</sys_updated_on>
+            <sys_updated_on>2025-08-01 00:22:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,55 @@
             <element>active</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-07-26 01:06:44</sys_created_on>
-            <sys_id>27395914470f2210a348d24b116d430d</sys_id>
+            <sys_created_on>2025-08-01 00:22:54</sys_created_on>
+            <sys_id>b7b88c9247c76610a348d24b116d43d3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1432236_unit_alunos" sys_domain="global" view="Default view">3ba7d590470f2210a348d24b116d43b5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-07-26 01:06:44</sys_updated_on>
+            <sys_updated_on>2025-08-01 00:22:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-01 00:22:54</sys_created_on>
+            <sys_id>3fb88c9247c76610a348d24b116d43d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1432236_unit_alunos" sys_domain="global" view="Default view">3ba7d590470f2210a348d24b116d43b5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-01 00:22:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>enfase</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-01 01:03:05</sys_created_on>
+            <sys_id>94f19412470b6610a348d24b116d4390</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1432236_unit_alunos" sys_domain="global" view="Default view">3ba7d590470f2210a348d24b116d43b5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-01 01:03:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>periodo</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-01 01:06:31</sys_created_on>
+            <sys_id>bab29852470b6610a348d24b116d43ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1432236_unit_alunos" sys_domain="global" view="Default view">3ba7d590470f2210a348d24b116d43b5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-01 01:06:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

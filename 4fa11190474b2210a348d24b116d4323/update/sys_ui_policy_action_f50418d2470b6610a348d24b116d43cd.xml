@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>enfase</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-01 01:13:00</sys_created_on>
+        <sys_id>f50418d2470b6610a348d24b116d43cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>enfase</sys_name>
+        <sys_package display_value="UNIT" source="x_1432236_unit">4fa11190474b2210a348d24b116d4323</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope>
+        <sys_update_name>sys_ui_policy_action_f50418d2470b6610a348d24b116d43cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-01 01:13:00</sys_updated_on>
+        <table>x_1432236_unit_alunos</table>
+        <ui_policy display_value="Especialização para alunos do setimo periodo ou superior">9c731c92470b6610a348d24b116d43c6</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=f50418d2470b6610a348d24b116d43cd"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>f50418d2470b6610a348d24b116d43cd</documentkey>
+        <fieldname>field_message</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-01 01:13:00</sys_created_on>
+        <sys_id>3d345c92470b6610a348d24b116d432a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-01 01:13:00</sys_updated_on>
+        <tablename>sys_ui_policy_action</tablename>
+        <value/>
+    </sys_translated_text>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_article_template_definition">
+    <kb_article_template_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <article_template display_value="Template Secretaria Virtual">1d4f9416474b6610a348d24b116d4327</article_template>
+        <collapsible/>
+        <column_label>Público Alvo</column_label>
+        <column_type>string</column_type>
+        <field_style/>
+        <heading_style/>
+        <mandatory>false</mandatory>
+        <order>200</order>
+        <preview_text/>
+        <sys_class_name>kb_article_template_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-01 02:03:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c8bfdc16474b6610a348d24b116d43a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Público Alvo</sys_name>
+        <sys_package display_value="UNIT" source="x_1432236_unit">4fa11190474b2210a348d24b116d4323</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope>
+        <sys_update_name>kb_article_template_definition_c8bfdc16474b6610a348d24b116d43a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-01 02:03:30</sys_updated_on>
+        <table_column>x_1432236_unit_u_kb_p_blico_alvo</table_column>
+    </kb_article_template_definition>
+</record_update>

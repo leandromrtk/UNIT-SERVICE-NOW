@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="UNIT">7d0395d847cb2210a348d24b116d43c2</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_1432236_unit_alunos">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Professores que estão inativos</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1432236_unit_alunos</name>
+        <order>300</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-01 01:29:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c4e79c56470b6610a348d24b116d430b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Professores que estão inativos</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="UNIT" source="x_1432236_unit">4fa11190474b2210a348d24b116d4323</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope>
+        <sys_update_name>sys_app_module_c4e79c56470b6610a348d24b116d430b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-01 01:29:00</sys_updated_on>
+        <timeline_page/>
+        <title>Professores que estão inativos</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="UNIT">4fa11190474b2210a348d24b116d4323</application>
+        <file_path/>
+        <instance_id>2bea315deb30a618cbdefceacad0cdfb</instance_id>
+        <instance_name>dev321427</instance_name>
+        <name>sys_app_module_c4e79c56470b6610a348d24b116d430b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="UNIT">7d0395d847cb2210a348d24b116d43c2</application><assessment/><device_type/><filter table="x_1432236_unit_alunos">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Professores que estão inativos</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1432236_unit_alunos</name><order>300</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-01 01:29:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c4e79c56470b6610a348d24b116d430b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Professores que estão inativos</sys_name><sys_overrides/><sys_package display_value="UNIT" source="x_1432236_unit">4fa11190474b2210a348d24b116d4323</sys_package><sys_policy/><sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope><sys_update_name>sys_app_module_c4e79c56470b6610a348d24b116d430b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-01 01:29:00</sys_updated_on><timeline_page/><title>Professores que estão inativos</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-987878275</payload_hash>
+        <record_name>Professores que estão inativos</record_name>
+        <reverted_from/>
+        <source>a822d19847cb2210a348d24b116d439e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-01 01:29:00</sys_created_on>
+        <sys_id>8ce79c56470b6610a348d24b116d430d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198633f29080000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-01 01:29:00</sys_updated_on>
+        <type>Module</type>
+        <update_guid>80e79c569b0b66106a875da182e2fe0d</update_guid>
+        <update_guid_history>80e79c569b0b66106a875da182e2fe0d:-987878275</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Professores que estão inativos">7448dcd6470b6610a348d24b116d43f5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-01 01:30:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>40175d35a16d48f0879f3504cae76100</sys_id>
+        <sys_metadata>c4e79c56470b6610a348d24b116d430b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Professores que estão inativos</sys_name>
+        <sys_package display_value="UNIT" source="x_1432236_unit">4fa11190474b2210a348d24b116d4323</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="UNIT">4fa11190474b2210a348d24b116d4323</sys_scope>
+        <sys_scope_delete display_value="">0b17295ce029488c809aa4cbb521b710</sys_scope_delete>
+        <sys_update_name>sys_app_module_c4e79c56470b6610a348d24b116d430b</sys_update_name>
+        <sys_update_version display_value="sys_app_module_c4e79c56470b6610a348d24b116d430b">8ce79c56470b6610a348d24b116d430d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-01 01:30:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

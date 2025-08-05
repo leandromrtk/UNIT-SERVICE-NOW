@@ -4,7 +4,7 @@
         <element attributes="encode_utf8=false" label="Cadeiras" max_length="32" name="x_1432236_unit_cadeiras" reference="x_1432236_unit_cadeiras" type="reference"/>
         <element attributes="encode_utf8=false" label="Unit alunos" max_length="32" name="x_1432236_unit_alunos" reference="x_1432236_unit_alunos" type="reference"/>
         <element label="Nota 02" max_length="40" name="nota_02" type="integer"/>
-        <element label="Media" max_length="40" name="media" type="integer"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;    var nota1 = parseFloat(current.nota_01);&#13;&#10;    var nota2 = parseFloat(current.nota_02);&#13;&#10; &#13;&#10;    var hasNota1 = !isNaN(nota1);&#13;&#10;    var hasNota2 = !isNaN(nota2);&#13;&#10; &#13;&#10;    if (hasNota1 &amp;&amp; hasNota2) {&#13;&#10;        return (nota1 + nota2) / 2;&#13;&#10;    } else if (hasNota1) {&#13;&#10;        return nota1;&#13;&#10;    } else if (hasNota2) {&#13;&#10;        return nota2;&#13;&#10;    } else {&#13;&#10;        return null;&#13;&#10;    }&#13;&#10;})(current);" label="Media 02" max_length="20" name="media_02" type="decimal" virtual="true"/>
         <index name="index">
             <element name="x_1432236_unit_alunos"/>
         </index>
